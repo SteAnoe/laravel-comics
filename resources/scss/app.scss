@@ -1,0 +1,155 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+
+header{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 150px;
+    .banner{
+        background-color: #1480ED;
+        height: 30px;
+        .container {
+            color: white;
+            font-weight: bold;
+            justify-content: flex-end;
+            padding-top: 5px;
+            display: flex;
+        }
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        div{
+            img{
+                width: 80%;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            ul{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 100%;
+                li{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    list-style-type: none;
+                    height: 100%;
+                    a{
+                        text-decoration: none;
+                        padding: 15px;
+                        color: black;
+                        &:hover{
+                            color: #1480ED; 
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            input{
+                margin-bottom: 10px;
+            }
+        }
+    }       
+    #giumbotron{
+        background-image: url('/img/jumbotron.jpg');
+        height: 500px;
+    }
+}
+
+footer{
+    margin-top: 1000px;
+    #about{
+        background-image: url('/img/footer-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        color: white;
+        display: flex;
+        align-items: center;
+        .container{
+            position: relative;
+            height: 80%;
+            .box{
+                position: relative;
+                height: 80%;
+                .col{
+                    display: flex;
+                    position: relative;
+                    div{
+                        h2{
+                            font-size: 20px; 
+                            margin-bottom: 15px;   
+                        }
+                        margin-right: 20px;
+                        ul{
+                            padding-left: 0;
+                            li{
+                                list-style-type: none;
+                                text-decoration: none; 
+                                font-size: 14px;
+                                margin-bottom: 7px;
+                                color: gray;
+                            }
+                        } 
+                    }
+                }
+            }   
+            img{
+                position: absolute;
+                right: 50px;
+                bottom: -80px;
+                z-index: 1;
+                width: 37%;
+            }
+        }
+    }
+    #links{
+        position: relative;
+        z-index: 99;
+        background-color: #303030;
+        color: white;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            #button{
+                font-size: 20px;
+                border: 2px solid #1480ED;
+                padding: 10px;
+            }
+            div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 30%;
+                strong{
+                    color: #1480ED;
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.position{
+    position: absolute;
+    bottom: -20px;
+}

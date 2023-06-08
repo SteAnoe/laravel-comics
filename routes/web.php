@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $comics = config('comics.comics');
+    $menu = config('menulinks.menuLinks');
+    $footermenu = config('footerLinks.aboutList');
+    return view('welcome', compact('comics' , 'menu' , 'footermenu'));
 });
