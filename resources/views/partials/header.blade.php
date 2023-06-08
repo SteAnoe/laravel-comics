@@ -20,6 +20,4 @@
             <input type="text" placeholder="Search">
         </div>
     </div>
-    <div id="giumbotron">
-    </div>
 </header>

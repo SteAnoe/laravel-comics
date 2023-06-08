@@ -3,7 +3,19 @@
         <div class="container">
             <div class="box">
                 <div class="col">
-                    
+                        <div class="position">
+                            <h2>
+                                SHOP                               
+                            </h2>
+                            <ul>
+                                <li>
+                                    Shop DC
+                                </li>
+                                <li>
+                                    Shop DC Collectibles
+                                </li>
+                            </ul>
+                        </div>
                         @foreach ($footermenu as $elem)
                         <div>
                             <h2>{{$elem['title']}}</h2>

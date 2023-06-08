@@ -31,18 +31,6 @@ return [
             ],
         ],
         [
-            "position" => "true",
-            "title" => "SHOP",
-            "items" => [
-                [
-                    "item" => "Shop DC"
-                ],
-                [
-                    "item" => "Shop DC Collectibles"
-                ]
-            ],
-        ],
-        [
             "position" => "false",
             "title" => "DC",
             "items" => [

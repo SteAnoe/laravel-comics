@@ -17,5 +17,6 @@ Route::get('/', function () {
     $comics = config('comics.comics');
     $menu = config('menulinks.menuLinks');
     $footermenu = config('footerLinks.aboutList');
-    return view('welcome', compact('comics' , 'menu' , 'footermenu'));
+    $menushop = config('menuShop.menuShop');
+    return view('welcome', compact('comics' , 'menu' , 'footermenu' , 'menushop'));
 });
